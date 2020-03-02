@@ -1,11 +1,4 @@
-# json-server-api
-First, let's install json-server in our system using the following command:
-
-`$ npm install -g json-server`
-
-Next, create a folder for your server and create a JSON file (data.json) with the following content:
-
-`{
+{
     "users":[
         {
             "id": 1,
@@ -73,22 +66,4 @@ Next, create a folder for your server and create a JSON file (data.json) with th
             "status": ""
         }
     ]
-}`
-
-We added empty entries for JSON data. Feel free to add your own data or use a tool like Faker.js to automatically generate fake data.
-
-Next, you need to start the JSON server using:
-
-`$ json-server --watch data.json `
-
-Your REST API server will be running at http://localhost:3000.
-
-We'll have the following resources exposed:
-
-http://localhost:3000/users
-http://localhost:3000/accounts
-http://localhost:3000/contacts
-http://localhost:3000/activities
-http://localhost:3000/contactsources
-http://localhost:3000/contactstatuses
-http://localhost:3000/activitystatuses
+}
