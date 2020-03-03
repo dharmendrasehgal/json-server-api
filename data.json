@@ -1,69 +1,93 @@
 {
-    "users":[
-        {
-            "id": 1,
-            "first_name": "Robert",
-            "last_name": "Schwartz",
-            "email": "admin@email.com"
-        }
-
-    ],
-    "accounts": [
-        {
-            "id": 1,
-            "name": "",
-            "email":"",
-            "phone": "",
-            "industry": "",
-            "website": "",
-            "description": "",
-            "createdBy": 1,
-            "createdAt": "",
-            "isActive": true
-        }
-    ],
-    "contacts": [
-        {
-            "id": 1,
-            "first_name": "",
-            "last_name": "",
-            "account": 1,
-            "status":1,
-            "source": 1,
-            "email": "",
-            "phone": "",
-            "address": "",
-            "description": "",
-            "createdBy": 1,
-            "createdAt": "",
-            "isActive": true
-        }
-    ],
-    "activities": [
-        {
-            "id": 1,
-            "description": "",
-            "createdAt" : "",
-            "contact": 1,
-            "status": 1
-        }
-    ],
-    "contactsources": [
-        {
-            "id":1,
-            "source": ""
-        }
-    ],
-    "contactstatuses": [
-        {
-            "id":1,
-            "status": ""
-        }
-    ],
-    "activitystatuses":[
-        {
-            "id":1,
-            "status": ""
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Robert",
+      "last_name": "Schwartz",
+      "email": "admin@email.com"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "name": "",
+      "email": "",
+      "phone": "",
+      "industry": "",
+      "website": "",
+      "description": "",
+      "createdBy": 1,
+      "createdAt": "",
+      "isActive": true
+    }
+  ],
+  "contacts": [
+    {
+      "id": 4,
+      "first_name": "Tamanna",
+      "last_name": "ENTERPRISES1",
+      "email": "tamannaarora.khushi@gmail.com",
+      "password": "234522222222",
+      "isActive": true
+    },
+    {
+      "first_name": "Dharmendra",
+      "last_name": "Sehgal",
+      "email": "dharmendra.sehgal@gmail.com",
+      "password": "Password12",
+      "isActive": true,
+      "id": 5
+    },
+    {
+      "first_name": "New Member",
+      "last_name": "Another",
+      "email": "ddddd@gg.com",
+      "password": "1234",
+      "isActive": true,
+      "id": 6
+    },
+    {
+      "id": 7,
+      "first_name": "Dharmendra",
+      "last_name": "Sehgals123",
+      "email": "dharmendra.sehgal@gmail.com",
+      "password": "Password12",
+      "isActive": true
+    },
+    {
+      "id": 8,
+      "first_name": "Himanshu",
+      "last_name": "Dua",
+      "email": "himanshu.dua@intsof.com",
+      "password": "Password12",
+      "isActive": true
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "description": "",
+      "createdAt": "",
+      "contact": 1,
+      "status": 1
+    }
+  ],
+  "contactsources": [
+    {
+      "id": 1,
+      "source": ""
+    }
+  ],
+  "contactstatuses": [
+    {
+      "id": 1,
+      "status": ""
+    }
+  ],
+  "activitystatuses": [
+    {
+      "id": 1,
+      "status": ""
+    }
+  ]
 }
